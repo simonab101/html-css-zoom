@@ -14,3 +14,37 @@ body {
   cursor: pointer;
 }
 
+/* View settings */
+.view-settings {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  color: white;
+}
+
+.view-settings .view-settings-item {
+  float: left;
+  display: flex;
+  background-color: #4A4A4A;
+  padding: 3px;
+  font-size: 9px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.view-settings .view-speaker .view-settings-item-icon {
+  margin-right: 3px;
+}
+
+/* Webcams */
+.meeting-container {
+  padding-top: 85px;
+  padding-bottom: 15px;
+  height: calc(100vh - 155px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  overflow-y: auto;
+}
