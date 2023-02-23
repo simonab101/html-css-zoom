@@ -41,8 +41,8 @@ body {
 
 /* Webcams */
 .meeting-container {
-  padding-top: 85px;
-  padding-bottom: 15px;
+  padding-top: 32px;
+  padding-bottom: 66px;
   height: calc(100vh - 155px);
   display: flex;
   flex-wrap: wrap;
@@ -52,12 +52,12 @@ body {
 }
 
 .meeting-container .user {
-width: 160px;
-height: 100px;
-background-image: url(https://picsum.photos/200/300?grayscale);
-background-size: cover;
-position: relative;
-margin: 5px 2px;
+  width: 160px;
+  height: 100px;
+  background-image: url(https://picsum.photos/200/300?grayscale);
+  background-size: cover;
+  position: relative;
+  margin: 5px 2px;
 }
 
 .meeting-container .user .user-info {
