@@ -10,3 +10,7 @@ body {
   min-width: 700px;
 }
 
+.view-settings-item, .bar-item, .user {
+  cursor: pointer;
+}
+
